@@ -10,13 +10,13 @@ $danger: #f9777f !default;
 $info: #2cc8c8 !default;
 $success: #5dbf74 !default;
 $warning: #fac152 !default;
-$body-color: #f6f7fa !default;
-$body-bg: #28363c !default;
+$body-color: #716f6f !default;
+$body-bg: #060606 !default;
 $font-size: 16px !default;
 
 // Legacy Tokens Map
 
-$rz-base-100: $body-color !default;
+$rz-base-100: yellow !default;
 $rz-base-900: $body-bg !default;
 $rz-primary: $primary !default;
 $rz-secondary: $secondary !default;
@@ -34,13 +34,13 @@ $rz-black: #000000 !default;
 $rz-base-50: #ffffff !default;
 $rz-base-100: #f6f7fa !default;
 $rz-base-200: #e9edf0 !default;
-$rz-base-300: #dadfe2 !default;
+$rz-base-300: $body-color !default;
 $rz-base-400: #a8b4b8 !default;
 $rz-base-500: #7b8a8e !default;
 $rz-base-600: #63737a !default;
-$rz-base-700: #45565e !default;
-$rz-base-800: #38474e !default;
-$rz-base-900: #28363c !default;
+$rz-base-700: #38474e !default;
+$rz-base-800: $rz-black !default;
+$rz-base-900: $rz-black !default;
 
 $rz-primary: #ff6d41 !default;
 $rz-secondary: #3b9fd5 !default;
@@ -112,9 +112,7 @@ $rz-root-font-size: 16px !default;
 $rz-body-font-size: 0.875rem !default;
 $rz-body-line-height: 1.429 !default;
 $rz-body-background-color: var(--rz-base-900) !default;
-$rz-text-font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-'Segoe UI Emoji', 'Segoe UI Symbol' !default;
+$rz-text-font-family: 'Roboto', 'Arial' !default;
 $rz-icon-font-family: 'Material Icons' !default;
 $rz-icon-size: 1.25rem !default;
 $rz-outline-offset: 2px !default;
@@ -156,9 +154,7 @@ $tooltip-color: var(--rz-on-info) !default;
 $tooltip-border-radius: var(--rz-border-radius) !default;
 $tooltip-font-size: 0.875rem !default;
 $body-bg: var(--rz-base-900) !default;
-$font-family-sans-serif: 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol' !default;
+$font-family-sans-serif: 'Roboto', 'Arial' !default;
 
 
 // Utilities
@@ -279,7 +275,7 @@ $profile-menu-toggle-button-color: var(--rz-text-color) !default;
 $steps-number-background-color: var(--rz-base-700) !default;
 
 // Panel
-$panel-toggle-icon-background-color: var(--rz-base-700) !default;
+$panel-toggle-icon-background-color: var(--rz-base-900) !default;
 
 // Input components
 $input-background-color: var(--rz-base-900) !default;
@@ -395,5 +391,5 @@ $form-field-filled-hover-background-color: var(--rz-base-700) !default;
 @import 'bootstrap';
 $bootstrap: true;
 
-@import 'fonts';
+//@import 'fonts';
 @import 'components';

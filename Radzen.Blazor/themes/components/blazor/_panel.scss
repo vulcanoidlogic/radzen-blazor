@@ -44,8 +44,8 @@ $panel-shadow: none !default;
 }
 
 .rz-panel-titlebar {
-  display: flex;
-  justify-content: space-between;
+  flex-direction: row-reverse;
+  justify-content:left;
 }
 
 .rz-panel-content {
@@ -91,13 +91,13 @@ $panel-shadow: none !default;
 
   .rzi-minus {
     &:before {
-      content: 'remove';
+      content: 'expand_less';
     }
   }
 
   .rzi-plus {
     &:before {
-      content: 'add';
+      content: 'expand_more';
     }
   }
 }
