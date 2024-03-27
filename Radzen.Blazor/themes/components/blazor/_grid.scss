@@ -236,7 +236,7 @@ $column-draggable-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.1) !default;
 .rz-datatable {
   position: relative;
   box-shadow: var(--rz-grid-shadow);
-  border: var(--rz-grid-cell-border);
+  border: transparent;
   border-radius: var(--rz-grid-border-radius);
   background-color: var(--rz-grid-background-color);
   overflow: hidden;
