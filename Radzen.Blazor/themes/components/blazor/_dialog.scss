@@ -105,6 +105,7 @@ $dialog-zindex: 1001 !default;
   flex: 0 1 auto;
   padding: var(--rz-dialog-content-padding);
   overflow: auto;
+  height: 100%;
 }
 
 .rz-dialog-confirm, .rz-dialog-alert {
